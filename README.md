@@ -39,6 +39,7 @@ stickers
 <div align="center">
 
 ![Stickers](https://user-images.githubusercontent.com/70734516/228872004-105e4ada-240a-41eb-a4e6-55753be06aa6.png)
+![image](https://user-images.githubusercontent.com/70734516/228873981-85f29aaf-a32d-44a3-856d-dd4d4a76c6b3.png)
 
   </div>
 
