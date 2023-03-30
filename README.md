@@ -56,13 +56,13 @@ Você pode [acessar o código fonte do projeto](https://github.com/tiag188/stick
 
 ## Configurar e executar o projeto
 
-Após baixar o projeto, você pode instalar ele eno Visual Studio Code for Java acessando:
+Após baixar o projeto, você pode configurar o Visual Studio Code for Java acessando os links abaixo:
 
 - [Instale o pacote de codificação para Java - Windows](https://aka.ms/vscode-java-installer-win)
 - [Instale o pacote de codificação para Java - macOS](https://aka.ms/vscode-java-installer-mac)
-- Pronto! Agora abra o projeto e execute no play no canto superior direito.
+- Pronto! Agora abra e execute o projeto em seu Visual Studio Code.
 
-A ferramenta de `Stickers` busca imagens na API da NASA ou IMDB e, em seguida, gera uma imagem com o título especificado na pasta de stickers. Depois disso, o usuário pode acessar o Whatsapp Web e enviar a figurinha que foi criada e está armazenada na pasta de stickers. 🏆
+A ferramenta de `Stickers` busca imagens na API da NASA ou IMDB e, em seguida, gera uma imagem com o título especificado, dentro da pasta de stickers. Depois disso, o usuário pode acessar o Whatsapp Web e enviar a figurinha que foi criada que está armazenada na `pasta de stickers`. 🏆
 
 ## Desenvolvedor
 
