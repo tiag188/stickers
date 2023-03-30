@@ -38,7 +38,7 @@ stickers
 
 <div align="center">
 
-![Stickers](#)
+![Stickers](![image](https://user-images.githubusercontent.com/70734516/228872004-105e4ada-240a-41eb-a4e6-55753be06aa6.png))
 
   </div>
 
