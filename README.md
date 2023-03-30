@@ -63,7 +63,7 @@ Após baixar o projeto, você pode configurar o Visual Studio Code for Java aces
 - [Instale o pacote de codificação para Java - macOS](https://aka.ms/vscode-java-installer-mac)
 - Pronto! Agora abra e execute o projeto em seu Visual Studio Code.
 
-A ferramenta de `Stickers` busca imagens na API da NASA ou IMDB e, em seguida, gera uma imagem com o título especificado, dentro da pasta de stickers. Depois disso, o usuário pode acessar o Whatsapp Web e enviar a figurinha que foi criada que está armazenada na `pasta de stickers`. 🏆
+A ferramenta de `Stickers` busca imagens na API da NASA ou IMDB e, em seguida, gera uma imagem com o título especificado, dentro da pasta de stickers. Depois disso, o usuário pode acessar o Whatsapp Web e enviar a figurinha que foi criada que está armazenada na pasta noemada como `stickers`. 🏆
 
 ## Desenvolvedor
 
