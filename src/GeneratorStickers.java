@@ -41,7 +41,7 @@ public class GeneratorStickers {
         /*
          * 4 - escrever nova frase
          */
-        String texto = "A gente se ve por aí";
+        String texto = "Alow Espaço!";
         int x = 50;
         int y = 100;
 
