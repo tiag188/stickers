@@ -66,7 +66,5 @@ A ferramenta de `Stickers` busca imagens na API da NASA ou IMDB e, em seguida, g
 
 ## Desenvolvedor
 
-[<img src="https://avatars.githubusercontent.com/u/70734516?s=400&u=664d429586f00ea8f82bcb7f97fb764e820158f4&v=4" width=115><br><sub>Tiago Silva</sub>](https://github.com/tiag188) 
-
 | [<img src="https://avatars.githubusercontent.com/u/70734516?s=400&u=664d429586f00ea8f82bcb7f97fb764e820158f4&v=4" width=115><br><sub>Tiago Silva</sub>](https://github.com/tiag188) |  [<img src="https://avatars.githubusercontent.com/u/70734516?s=400&u=664d429586f00ea8f82bcb7f97fb764e820158f4&v=4" width=115><br><sub>Tiago Silva</sub>](https://github.com/tiag188)  |
 | :---: | :---:
