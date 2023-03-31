@@ -4,39 +4,41 @@ import java.util.List;
 import java.util.Map;
 
 public class App {
-    public static void main(String[] args) throws Exception {
-      
-        // System.out.println(body);
-        // extrair os dados
-       
-        //String url = "https://api.nasa.gov/planetary/apod?api_key=VyXkKsAF08PROugvEhpwQbvC3nADaOcGp5GRRrSb&start_date=2023-03-01&end_date=2023-03-04";
 
-    
-        // extrair conteúdo do json e popular em uma lista
-        String url = "https://api.nasa.gov/planetary/apod?api_key=VyXkKsAF08PROugvEhpwQbvC3nADaOcGp5GRRrSb&start_date=2023-03-01&end_date=2023-03-04";
-        ContentExtractor extractor = new ContentExtractorNASA();
+  public static void main(String[] args) throws Exception {
+    // System.out.println(body);
+    // extrair os dados
 
-        //String url = "IMDB";
-        //ContentExtractor extractor = new ContentExtractorIMDB();
-        var http = new ClientHttp();
-        String json = http.getData(url);
-        List<Content> contents = extractor.extractor(json);
-    
-        // System.out.println(listCard);
-        System.out.println(contents.size());
-        for (Content item : contents) {
-            String title = item.getTitulo();
-            String urlImage = item.getUrlImagem();
+    //String url = "https://api.nasa.gov/planetary/apod?api_key=VyXkKsAF08PROugvEhpwQbvC3nADaOcGp5GRRrSb&start_date=2023-03-01&end_date=2023-03-04";
 
-            InputStream inputStream = new URL(urlImage).openStream();
-            String nameFile = title + ".png";
+    // extrair conteúdo do json e popular em uma lista
+    // String url = "https://api.nasa.gov/planetary/apod?api_key=VyXkKsAF08PROugvEhpwQbvC3nADaOcGp5GRRrSb&start_date=2023-03-01&end_date=2023-03-04";
+    // ContentExtractor extractor = new ContentExtractorNASA();
 
-            GeneratorStickers generatorStickers = new GeneratorStickers();
-            generatorStickers.create(inputStream, nameFile);
+    String url = "http://localhost:8080/languages";
+    ContentExtractor extractor = new ContentExtractorIMDB();
 
-            System.out.println(title);
-            System.out.println(urlImage);
-            System.out.println();
-        }
+    //String url = "IMDB";
+    //ContentExtractor extractor = new ContentExtractorIMDB();
+    var http = new ClientHttp();
+    String json = http.getData(url);
+    List<Content> contents = extractor.extractor(json);
+
+    // System.out.println(listCard);
+    System.out.println(contents.size());
+    for (Content item : contents) {
+      String title = item.getTitulo();
+      String urlImage = item.getUrlImagem();
+
+      InputStream inputStream = new URL(urlImage).openStream();
+      String nameFile = title + ".png";
+
+      GeneratorStickers generatorStickers = new GeneratorStickers();
+      generatorStickers.create(inputStream, nameFile, "Quase lá!");
+
+      System.out.println(title);
+      System.out.println(urlImage);
+      System.out.println();
     }
+  }
 }

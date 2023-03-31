@@ -10,7 +10,7 @@ import javax.imageio.ImageIO;
 
 public class GeneratorStickers {
 
-    public void create(InputStream inputStream, String newFile) throws Exception {
+    public void create(InputStream inputStream, String newFile, String texto) throws Exception {
         /*
          * 1 - ler imagem
          */
@@ -41,7 +41,7 @@ public class GeneratorStickers {
         /*
          * 4 - escrever nova frase
          */
-        String texto = "Alow Espaço!";
+
         int x = 50;
         int y = 100;
 
