@@ -25,7 +25,7 @@ stickers
 ## Descrição do projeto 
 
 <p align="justify">
- Projeto em desenvolvimento para buscar imagens da API da NASA ou IMDB (dependendo da preferência do usuário), baixá-las e adicionar transparência abaixo. Em seguida, o usuário pode inserir o texto que desejar na transparência, para criar sua própria figurinha personalizada e enviá-la através do Whatsapp.
+ Projeto em desenvolvimento para buscar imagens no banco de dados MongoDB, faz o download e adiciona transparência abaixo. Em seguida, o usuário pode inserir o texto que desejar na transparência, para criar sua própria figurinha personalizada e enviá-la através do Whatsapp.
 
 ![Fluxo Desacoplar responsabilidade](https://user-images.githubusercontent.com/70734516/228729255-3b435c57-92fd-4a59-bfb5-1590fe6b93b3.png)
 </p>
