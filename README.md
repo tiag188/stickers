@@ -25,9 +25,9 @@ stickers
 ## Descrição do projeto 
 
 <p align="justify">
- Projeto em desenvolvimento para buscar imagens no banco de dados MongoDB, faz o download e adiciona transparência abaixo. Em seguida, o usuário pode inserir o texto que desejar na transparência, para criar sua própria figurinha personalizada e enviá-la através do Whatsapp.
+ Microserviço em desenvolvimento para buscar imagens no banco de dados MongoDB, faz o download e adiciona transparência abaixo. Em seguida, o usuário pode inserir o texto que desejar na transparência, para criar sua própria figurinha personalizada e enviá-la através do Whatsapp.
 
-![Fluxo Desacoplar responsabilidade](https://user-images.githubusercontent.com/70734516/228729255-3b435c57-92fd-4a59-bfb5-1590fe6b93b3.png)
+
 </p>
 
 ## Funcionalidades
@@ -38,8 +38,6 @@ stickers
 
 <div align="center">
 
-![Stickers](https://user-images.githubusercontent.com/70734516/228872004-105e4ada-240a-41eb-a4e6-55753be06aa6.png)
-![image](https://user-images.githubusercontent.com/70734516/228873981-85f29aaf-a32d-44a3-856d-dd4d4a76c6b3.png)
 
   </div>
 
