@@ -3,6 +3,7 @@ import java.net.URL;
 import java.util.List;
 import java.util.Map;
 
+// Executar após rodar o stickers-api, projeto faz a extração de acordo com o endpoint, serviço api local ou nasa por exemplo.
 public class App {
 
   public static void main(String[] args) throws Exception {
@@ -34,7 +35,7 @@ public class App {
       String nameFile = title + ".png";
 
       GeneratorStickers generatorStickers = new GeneratorStickers();
-      generatorStickers.create(inputStream, nameFile, "Quase lá!");
+      generatorStickers.create(inputStream, nameFile, "Extrator de volta!");
 
       System.out.println(title);
       System.out.println(urlImage);
